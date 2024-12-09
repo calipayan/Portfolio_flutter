@@ -1,0 +1,2 @@
+
+Creating files and projects in VS Code is easy and efficient. Its simple interface, built-in tools, and shortcuts make organizing and managing projects quick. With features like terminal access and extensions, it helps developers work faster and keep everything well-structured.
