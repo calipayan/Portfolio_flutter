@@ -1,1 +1,0 @@
-in chapter 3 naman is Learning Dart basics is an enjoyable journey due to its clean syntax and intuitive structure. It introduces core programming concepts like variables, functions, and classes, while its focus on productivity and Flutter integration showcases its practical application for modern app development.
