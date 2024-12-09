@@ -1,0 +1,1 @@
+Learning Dart basics and exploring animations in Chapter 7 showcases its versatility, combining core concepts with dynamic, interactive application development.and there is sample of making an animations.

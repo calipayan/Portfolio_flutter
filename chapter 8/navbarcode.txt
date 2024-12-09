@@ -1,0 +1,32 @@
+ Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Recipes'),
+        backgroundColor: Colors.brown.shade300, // Light brown background for visibility
+      ),
+      body: ListView.builder(
+        itemCount: recipes.length,
+        itemBuilder: (context, index) {
+          return ListTile(
+            title: Text(
+              recipes[index]['name']!,
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+            ),
+            subtitle: Text(
+              recipes[index]['description']!,
+              style: TextStyle(fontSize: 16),
+            ),
+            onTap: () {
+              // Show simple dialog for recipe detail
+              showDialog(
+                context: context,
+                builder: (context) => AlertDialog(
+                  title: Text(recipes[index]['name']!),
+                  content: Text('Instructions: Cook the recipe!'),
+                  actions: [
+                    TextButton(
+                      onPressed: () {
+                        Navigator.pop(context);
+                      },
+                      child: Text('Close'),
+                    ),
