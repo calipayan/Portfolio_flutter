@@ -1,1 +1,0 @@
-here in chapter 1, i install visual studio code, install extentions like flutter, dart, then the emulator to run the code.
